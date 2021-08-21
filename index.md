@@ -3,7 +3,7 @@
 
 # Work Report for Google Summer of Code 2021 📑
 
-## About me and the project :information_source:
+## About me and the project ℹ️
 My name is [Manan Jethwani](https://mananjethwani.github.io) and I worked on [New library catalogue UI for Kiwix-serve](https://summerofcode.withgoogle.com/projects/#5158540915769344) under Kiwix. My project was aimed at enhancing UI-UX experience for kiwix-serve which is used to host various zim files. My basic goals for this projects were -
 - Design a new UI mockup of https://library.kiwix.org.
 - Prepare the javascript to dynamically add books to kiwix-sereve.
