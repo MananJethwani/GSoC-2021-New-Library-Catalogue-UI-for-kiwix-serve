@@ -24,59 +24,62 @@ As my mentor was satisfied with my contributions I was recommended to take up Ne
 
 ## Contributions under GSoC 📝
 
+before             |  after
+:-------------------------:|:-------------------------:
+![](https://github.com/MananJethwani/GSoC-2021-New-Library-Catalogue-UI-for-kiwix-serve/blob/gh-pages/Screenshot%20from%202021-08-22%2011-37-19.png)  |  ![](https://github.com/MananJethwani/GSoC-2021-New-Library-Catalogue-UI-for-kiwix-serve/blob/gh-pages/Screenshot%20from%202021-08-22%2011-37-48.png)
+
 ### Dynamic Welcome Page for Kiwix-serve
 Kiwix-served used a static template and placed all zim files at once in the HTML itself using mustache and served it directly, moving to a Dynamic welcome page helped faster loading of page and could support various other features like filter(discussed later on).
 Throught this feature I also added subset loading(infinite scrolling as a feature).
 
 ##### Linked Issues - 
-- https://github.com/kiwix/libkiwix/issues/511
-- https://github.com/kiwix/libkiwix/issues/589
-- https://github.com/kiwix/libkiwix/issues/514
+- [Kiwix serve welcome page should be dynamic](https://github.com/kiwix/libkiwix/issues/511)
+- [Kiwix-serve welcome page doesn't account for --urlRootLocation](https://github.com/kiwix/libkiwix/issues/589)
+- [Load & display only a subset of the results on the welcome page](https://github.com/kiwix/libkiwix/issues/514)
 
 ##### Linked Pull Requests -
-- https://github.com/kiwix/libkiwix/pull/530
-- https://github.com/kiwix/libkiwix/pull/541
-- https://github.com/kiwix/libkiwix/pull/590
+- [Kiwix Serve welcome page dynamic and subset loading (OPDS based)](https://github.com/kiwix/libkiwix/pull/530)
+- [Dynamic and subset loading of catalogue in kiwix-serve](https://github.com/kiwix/libkiwix/pull/541)
+- [corrected relative links in preview and icon url](https://github.com/kiwix/libkiwix/pull/590)
 
 ### Filter functionality on Dynamic Welcome Page -
 Added filter functionality for languange and categories on welcome page, I also worked on adding features like caching select box values, automatic browser language detection for language select box.
 I used special language and category API endpoints created for this purpose.
 
 ##### Linked Issues -
-- https://github.com/kiwix/libkiwix/issues/517
-- https://github.com/kiwix/libkiwix/issues/531
-- https://github.com/kiwix/libkiwix/issues/555
-- https://github.com/kiwix/libkiwix/issues/594
-- https://github.com/kiwix/libkiwix/issues/557
+- [Kiwix-serve welcome page filter by category](https://github.com/kiwix/libkiwix/issues/517)
+- [Replace topbar and implement a few search filter on welcome page](https://github.com/kiwix/libkiwix/issues/531)
+- [Use language/category API to populate Kiwix Serve filter select boxes](https://github.com/kiwix/libkiwix/issues/555)
+- [Smarter default filter](https://github.com/kiwix/libkiwix/issues/594)
+- [Kiwix Serve filters on welcome page should be kept](https://github.com/kiwix/libkiwix/issues/557)
 
 ##### Linked Pull Requests -
-- https://github.com/kiwix/libkiwix/pull/534
-- https://github.com/kiwix/libkiwix/pull/534
-- https://github.com/kiwix/libkiwix/pull/600
-- https://github.com/kiwix/libkiwix/pull/596
-- https://github.com/kiwix/libkiwix/pull/561
+- [Add filters to kiwix-serve welcome page](https://github.com/kiwix/libkiwix/pull/534)
+- [Use OPDS API to populate categories/languages select boxes on Kiwix Serve welcome page](https://github.com/kiwix/libkiwix/pull/600)
+- [Improved browser lang filter working](https://github.com/kiwix/libkiwix/pull/596)
+- [Keep Kiwix Serve filter values over time](https://github.com/kiwix/libkiwix/pull/561)
 
 ### UI-UX revamp
 Revamped UI-UX updated navbar, cards, and added download modal.
 
 ##### Linked Issues -
-- https://github.com/kiwix/libkiwix/issues/579
-- https://github.com/kiwix/kiwix-tools/issues/448
+- [Kiwix Serve welcome page Download overlay](https://github.com/kiwix/libkiwix/issues/579)
+- [Propose a welcome page which is fancier](https://github.com/kiwix/kiwix-tools/issues/448)
 
 ##### Linkedin Pull Requests -
-- https://github.com/kiwix/libkiwix/pull/583
-- https://github.com/kiwix/libkiwix/pull/559
+- [Modal download box on Kiwix Serve welcome page](https://github.com/kiwix/libkiwix/pull/583)
+- [Revamped Kiwix Serve Welcome page layout](https://github.com/kiwix/libkiwix/pull/559)
 
 ### Other undergoing work -
 I am working on adding support for widgets and customizable welcome page.
 
 ##### Linked Issues -
-- https://github.com/kiwix/libkiwix/issues/571
-- https://github.com/kiwix/libkiwix/issues/585
+- [Kiwix Serve welcome page title should be customizable](https://github.com/kiwix/libkiwix/issues/571)
+- [kiwix-serve (ZIM?) should propose widgets](https://github.com/kiwix/libkiwix/issues/585)
 
 ##### Linkedin Pull Requests -
-- https://github.com/kiwix/libkiwix/pull/587
-- https://github.com/kiwix/libkiwix/pull/607
+- [added nofilter attribute and iframe conditions](https://github.com/kiwix/libkiwix/pull/587)
+- [added cutomIndexTemplate option to kiwix-serve](https://github.com/kiwix/libkiwix/pull/607)
 
 ## Future Work 🔮
 As far as the project goes there are few things that can be improved and changed, for more updates you can clearly have a look at the [project page](https://github.com/orgs/kiwix/projects/13), I would like to improve upon the design I created and would love to see more features coming to kiwix-serve in future few of them listed below:
