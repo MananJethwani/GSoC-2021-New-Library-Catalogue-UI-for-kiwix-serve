@@ -24,9 +24,20 @@ As my mentor was satisfied with my contributions I was recommended to take up Ne
 
 ## Contributions under GSoC 📝
 
-before             |  after
-:-------------------------:|:-------------------------:
-![](https://github.com/MananJethwani/GSoC-2021-New-Library-Catalogue-UI-for-kiwix-serve/blob/gh-pages/Screenshot%20from%202021-08-22%2011-37-19.png)  |  ![](https://github.com/MananJethwani/GSoC-2021-New-Library-Catalogue-UI-for-kiwix-serve/blob/gh-pages/Screenshot%20from%202021-08-22%2011-37-48.png)
+<table>
+<thead>
+<tr>
+<th align="center">before</th>
+<th align="center">after</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a target="_blank" rel="noopener noreferrer" href="https://github.com/MananJethwani/GSoC-2021-New-Library-Catalogue-UI-for-kiwix-serve/blob/gh-pages/Screenshot%20from%202021-08-22%2011-37-19.png"><img src="https://github.com/MananJethwani/GSoC-2021-New-Library-Catalogue-UI-for-kiwix-serve/raw/gh-pages/Screenshot%20from%202021-08-22%2011-37-19.png" alt="" style="max-width:100%;"></a></td>
+<td align="center"><a target="_blank" rel="noopener noreferrer" href="https://github.com/MananJethwani/GSoC-2021-New-Library-Catalogue-UI-for-kiwix-serve/blob/gh-pages/Screenshot%20from%202021-08-22%2011-37-48.png"><img src="https://github.com/MananJethwani/GSoC-2021-New-Library-Catalogue-UI-for-kiwix-serve/raw/gh-pages/Screenshot%20from%202021-08-22%2011-37-48.png" alt="" style="max-width:100%;"></a></td>
+</tr>
+</tbody>
+</table>
 
 ### Dynamic Welcome Page for Kiwix-serve
 Kiwix-served used a static template and placed all zim files at once in the HTML itself using mustache and served it directly, moving to a Dynamic welcome page helped faster loading of page and could support various other features like filter(discussed later on).
